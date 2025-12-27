@@ -1,6 +1,15 @@
 # 🔍 LLM App with Web Search Demo Application
 
 
+This application demonstrates how to overcome LLM knowledge cutoffs by using real-time web search.
+
+## 🧠 Why Web Search? (Understanding Cutoffs)
+
+LLMs are like books written on a specific date; they don't know what happened after they were printed. Constant retraining is too expensive and slow. This app uses **RAG (Retrieval-Augmented Generation)** to fetch live data.
+
+![LLM Knowledge Cutoff Infographic](assets/llm_cutoff_infographic.png)
+
+---
 
 ## Prerequisites
 
@@ -35,22 +44,9 @@ playwright install
 ## 🚀 Run the application
 
 ```sh
-make run
+streamlit run app.py
 ```
 
 
-## 🛟 Getting Help
-
-```sh
-make
-
-# OR
-
-make help
-```
-
-# My changes
-
-# My changes
 
 # My changes
